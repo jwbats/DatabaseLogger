@@ -1,0 +1,11 @@
+CREATE TABLE `log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `datetime` datetime NOT NULL,
+  `name` varchar(64) NOT NULL,
+  `level` int(11) NOT NULL,
+  `description` varchar(16) NOT NULL,
+  `message` varchar(128) DEFAULT NULL,
+  `exception` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+SELECT * FROM logdb.log;
