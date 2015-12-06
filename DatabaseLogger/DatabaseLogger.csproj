@@ -57,7 +57,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Model\Log.cs" />
     <Compile Include="Model\LogDB.cs" />
